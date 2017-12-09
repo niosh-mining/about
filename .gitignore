@@ -1,0 +1,7 @@
+# Linux/osX stuff
+*~
+*.swp
+.DS_store*
+
+# pycharm/intellij
+.idea
