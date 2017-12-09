@@ -2,7 +2,7 @@
 
 This is the Github landing page for projects released by the [NIOSH mining program](https://www.cdc.gov/niosh/mining/index.html). We are excited to share some of our code and would encourage you to checkout, use, and contribute to our projects.
 
-## Terms of use
+## Terms of Use
 
 NIOSH github projects follow the [CDC privacy policy](https://www.cdc.gov/Other/privacy.html) and [other policies](https://www.cdc.gov/Other/policies.html) where applicable.
 
