@@ -9,7 +9,7 @@ Before starting the github release approval process, please ensure the candidate
 following requirements:
 
     1. The code is stored in a git repository
-    2. The repo does not include any [sensitive data](#Data) (consider removing old history).
+    2. The repo does not include any [nonpublic (sensitive) data](#Data) (consider removing old git history).
     3. The repo includes [documentation appropriate to the maturity of the software](#Documentation).
     4. The code includes a [testing procedure](#Testing).
     5. The code includes an [OSI approved open-source liscense](https://opensource.org/licenses).
@@ -47,8 +47,6 @@ You should also strongly consider adding the following:
 
 when it makes sense to do so. 
 
-
-
 ## Testing
 
 Testing is essential to ensure software functions as intended. Best practice is to
@@ -60,10 +58,18 @@ manual tests should be included.
 
 ## Data
 
-Generally, software projects should not include unpublished research data. Never
-include any sensitive data <more about what that means>. If data need to be included,
-for example to enable testing, it is best to use anonymized, fictitious, or public data.
+Software projects should not include any nonpublic (sensitive) information. Nonpublic 
+information in this instance is any information that has not previously been published.
+Examples incude, but may not be limited to:
+ - Personally identifiable information (PII) or other sensitive data,
+ - unpublished research data,
+ - data protected by a non-disclosure or other written agreement,
+ - data that may be considered trade secrets,
+ - user credentials, or
+ - system-specific information (ip addresses, ports, protocols, etc.).
 
+If data need to be included, for example to enable testing, it is best to use anonymized, 
+fictitious, or public data.
 
 ## Versioning
 
