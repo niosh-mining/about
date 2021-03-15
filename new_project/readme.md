@@ -8,13 +8,13 @@ new projects to the [niosh-mining github page](https://github.com/niosh-mining).
 Before starting the github release approval process, please ensure the candidate code satisfies the
 following requirements:
 
-    1. The code is stored in a git repository
-    2. The repo does not include any [nonpublic (sensitive) data](#Data) (consider removing old git history).
-    3. The repo includes [documentation appropriate to the maturity of the software](#Documentation).
-    4. The code includes a [testing procedure](#Testing).
-    5. The code includes an [OSI approved open-source liscense](https://opensource.org/licenses).
-    6. The code includes a [version string and a versioning system](#Versioning)
-    7. The code has been uploaded to the niosh-mining github page as a **private** repo.
+  1. The code is stored in a git repository
+  2. The repo does not include any [nonpublic (sensitive) data](#Data) (consider removing old git history).
+  3. The repo includes [documentation appropriate to the maturity of the software](#Documentation).
+  4. The code includes a [testing procedure](#Testing).
+  5. The code includes an [OSI approved open-source liscense](https://opensource.org/licenses).
+  6. The code includes a [version string and a versioning system](#Versioning)
+  7. The code has been uploaded to the niosh-mining github page as a **private** repo.
 
 # Initiating a Review
 
@@ -34,16 +34,16 @@ The amount/type of appropriate documentation can vary widely based on the type/f
 of the software and its maturity level. At a minimum, a readme file should be included
 which includes the following:
 
-    * The purpose of the software.
-    * An indication of the software's maturity (eg alpha, beta, etc.)
-    * A link to the [NIOSH about page/disclaimer](https://github.com/niosh-mining/about).
+  * The purpose of the software.
+  * An indication of the software's maturity (eg alpha, beta, etc.)
+  * A link to the [NIOSH about page/disclaimer](https://github.com/niosh-mining/about).
 
 You should also strongly consider adding the following:
 
-    * Instructions for installing the software
-    * Instructions for contributing to the software
-    * Quickstart guides/examples
-    * Technical references
+  * Instructions for installing the software
+  * Instructions for contributing to the software
+  * Quickstart guides/examples
+  * Technical references
 
 when it makes sense to do so. 
 
