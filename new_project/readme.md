@@ -68,7 +68,7 @@ Examples incude, but may not be limited to:
  - user credentials, or
  - system-specific information (ip addresses, ports, protocols, etc.).
 
-If data need to be included, for example to enable testing, it is best to use anonymized, 
+If in doubt, it is probably better to exclude the information. If data need to be included, for example to enable testing, it is best to use anonymized, 
 fictitious, or public data.
 
 ## Versioning
