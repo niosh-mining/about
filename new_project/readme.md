@@ -9,12 +9,23 @@ Before starting the github release approval process, please ensure the candidate
 following requirements:
 
   1. The code is stored in a git repository
-  2. The repo does not include any [nonpublic (sensitive) data](#Data) (consider removing old git history).
-  3. The repo includes [documentation appropriate to the maturity of the software](#Documentation).
-  4. The code includes a [testing procedure](#Testing).
-  5. The code includes an [OSI approved open-source liscense](https://opensource.org/licenses).
-  6. The code includes a [version string and a versioning system](#Versioning)
-  7. The code has been uploaded to the niosh-mining github page as a **private** repo.
+  2. The code must not contain details or references to CDC software security controls or protections.
+  3. The code must have a clean Fortify scan.
+  4. The repo must not include any [nonpublic (sensitive) data](#Data) (consider removing old git history).
+  5. The repo includes [documentation appropriate to the maturity of the software](#Documentation).
+  6. The code includes a [testing procedure](#Testing).
+  7. The code includes an [OSI approved open-source liscense](https://opensource.org/licenses).
+  8. The code includes a [version string and a versioning system](#Versioning)
+  9. The code has been uploaded to the niosh-mining github page as a **private** repo.
+
+# Obtaining Approval
+
+Once the code package has been prepared, official approval to make the private repo public must be obtained. Approvers include:
+
+   1. Team Leader
+   2. Branch Chief
+   3. Associate Director of Science (ADS)
+   4. Division Director or Deputy Division Director
 
 # Initiating a Review
 
@@ -25,8 +36,8 @@ the issue and follow the directions and checklist.
 
 # Guidelines
 
-The following provide more details about specific guidelines for the candidate
-open-source software projects.
+The following provides more detail about specific guidelines for the candidate
+open-source software project.
 
 ## Documentation
 
@@ -60,15 +71,16 @@ manual tests should be included.
 
 Software projects should not include any nonpublic (sensitive) information. Nonpublic 
 information in this instance is any information that has not previously been published.
-Examples incude, but may not be limited to:
+Examples include, but may not be limited to:
  - Personally identifiable information (PII) or other sensitive data,
  - unpublished research data,
  - data protected by a non-disclosure or other written agreement,
  - data that may be considered trade secrets,
+ - data that describes or references security controls or protections,
  - user credentials, or
  - system-specific information (ip addresses, ports, protocols, etc.).
 
-If in doubt, it is probably better to exclude the information. If data need to be included, for example to enable testing, it is best to use anonymized, 
+If in doubt, it is better to exclude the information. If data need to be included, for example to enable testing, it is best to use anonymized, 
 fictitious, or public data.
 
 ## Versioning
