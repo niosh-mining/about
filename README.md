@@ -16,6 +16,7 @@ No further development or upgrades for NIOSH-mining software are planned. Any qu
 * [Rules of Behavior](https://github.com/CDCgov/template/blob/master/rules_of_behavior.md)
 * [Disclaimer](https://github.com/CDCgov/template/blob/master/DISCLAIMER.md)
 * [Code of Conduct](https://github.com/CDCgov/template/blob/master/code-of-conduct.md)
+* [Security Policy](https://github.com/niosh-mining/about/blob/master/SECURITY.md)
 
 ## Public Domain Standard Notice
 
